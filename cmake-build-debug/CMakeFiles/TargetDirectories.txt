@@ -1,0 +1,3 @@
+C:/Users/jhuam/Documents/compi/cmake-build-debug/CMakeFiles/ProyectoCompi.dir
+C:/Users/jhuam/Documents/compi/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jhuam/Documents/compi/cmake-build-debug/CMakeFiles/rebuild_cache.dir

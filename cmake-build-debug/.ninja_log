@@ -1,0 +1,9 @@
+# ninja log v6
+7	766	7736534768262573	CMakeFiles/ProyectoCompi.dir/token.cpp.obj	9752b31648df5c44
+12	833	7736534768307772	CMakeFiles/ProyectoCompi.dir/scanner.cpp.obj	ef30460b773cae35
+2	1328	7736534768201013	CMakeFiles/ProyectoCompi.dir/main.cpp.obj	ac58ae3f43c09e01
+31	1334	7736534768495843	CMakeFiles/ProyectoCompi.dir/visitor.cpp.obj	4f63a05e53908062
+17	1632	7736534768358674	CMakeFiles/ProyectoCompi.dir/parser.cpp.obj	b9b039b60db1398f
+25	1708	7736534768434872	CMakeFiles/ProyectoCompi.dir/expression.cpp.obj	2db786255c554f05
+36	2120	7736534768545900	CMakeFiles/ProyectoCompi.dir/gencode.cpp.obj	8d93cf074e039855
+2122	2817	7736534789408328	ProyectoCompi.exe	304f453e8bf4900a
