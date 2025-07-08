@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10, b = 2, c = 4;
+    int y = (a + b) / c;
+    printf("Resultado: %d\n", y);
+    return 0;
+}

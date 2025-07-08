@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+
+struct Rectangulo {
+    int ancho;
+    int alto;
+};
+
+int main() {
+    struct Rectangulo r;
+    r.ancho = 10;
+    r.alto = 20;
+    struct Rectangulo *ptr = &r;
+    ptr->ancho = 30;
+    ptr->alto = 40;
+    printf("Rectangulo en (%d, %d)\n", ptr->ancho, ptr->alto);
+    printf("Rectangulo en (%d, %d)\n", r.ancho, r.alto);
+    return 0;
+}

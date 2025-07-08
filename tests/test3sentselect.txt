@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char c = 'b';
+    if (c == 'a') {
+        printf("Es 'a'\n");
+    } else if (c == 'b') {
+        printf("Es 'b'\n");
+    } else {
+        printf("Es otro caracter\n");
+    }
+    return 0;
+}

@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int a = 1, b = 0;
+    if (a == 1 || b == 1) {
+        printf("Al menos una condicion es verdadera\n");
+    }
+    return 0;
+}

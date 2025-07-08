@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int n = 10;
+    int a = 0;
+    int b = 1;
+    int i = 2;
+    int* pa = &a;
+    int* pb = &b;
+    int fib = 0;
+
+    if (n == 0) {
+        fib = *pa;
+    } else if (n == 1) {
+        fib = *pb;
+    } else {
+        while (i <= n) {
+            fib = *pa + *pb;
+            *pa = *pb;
+            *pb = fib;
+            i++;
+        }
+    }
+
+    printf("Fibonacci(%d) = %d\n", n, fib);
+    return 0;
+}

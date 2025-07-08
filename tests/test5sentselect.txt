@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    printf("Iniciando bucles anidados:\n");
+    for (int i = 1; i <= 3; i++) {
+        int j = 1;
+        while (j <= 2) {
+            if ((i + j) % 2 == 0) {
+                printf("i=%d, j=%d -> suma par\n", i, j);
+            } else {
+                printf("i=%d, j=%d -> suma impar\n", i, j);
+            }
+            j++;
+        }
+    }
+    printf("Bucles anidados finalizados.\n");
+    return 0;
+}
