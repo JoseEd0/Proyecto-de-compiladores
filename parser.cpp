@@ -219,7 +219,6 @@ FunctionList* Parser::parseFunctions() {
     while(!isAtEnd() && (check(Token::INT) || check(Token::CHAR) || check(Token::VOID))) {
         Type* return_type = parseType();
 
-
         if (check(Token::MAIN)) {
             match(Token::MAIN);
             return functions;

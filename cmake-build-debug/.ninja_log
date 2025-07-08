@@ -7,3 +7,11 @@
 31	1334	7736534768495843	CMakeFiles/ProyectoCompi.dir/visitor.cpp.obj	4f63a05e53908062
 17	1632	7736534768358674	CMakeFiles/ProyectoCompi.dir/parser.cpp.obj	b9b039b60db1398f
 36	2120	7736534768545900	CMakeFiles/ProyectoCompi.dir/gencode.cpp.obj	8d93cf074e039855
+10	746	7736966434948868	CMakeFiles/ProyectoCompi.dir/token.cpp.obj	9752b31648df5c44
+13	748	7736966434948868	CMakeFiles/ProyectoCompi.dir/scanner.cpp.obj	ef30460b773cae35
+26	1129	7736966435060506	CMakeFiles/ProyectoCompi.dir/visitor.cpp.obj	4f63a05e53908062
+5	1160	7736966434903996	CMakeFiles/ProyectoCompi.dir/main.cpp.obj	ac58ae3f43c09e01
+17	1422	7736966435022159	CMakeFiles/ProyectoCompi.dir/parser.cpp.obj	b9b039b60db1398f
+21	1530	7736966435060506	CMakeFiles/ProyectoCompi.dir/expression.cpp.obj	2db786255c554f05
+30	1986	7736966435140606	CMakeFiles/ProyectoCompi.dir/gencode.cpp.obj	8d93cf074e039855
+1986	2687	7736966454709755	ProyectoCompi.exe	304f453e8bf4900a
