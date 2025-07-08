@@ -6,7 +6,6 @@
 #include <iostream>
 using namespace std;
 
-
 struct FieldInfo {
     std::string type_name;
     bool is_pointer;

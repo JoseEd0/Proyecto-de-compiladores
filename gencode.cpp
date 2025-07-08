@@ -7,7 +7,6 @@
 #include <iterator>
 using namespace std;
 
-
 int GenCodeVisitor::calcular_stack_body(Body* body) {
     int stack = 0;
     for (auto elem : body->elements) {
