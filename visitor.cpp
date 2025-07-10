@@ -224,6 +224,7 @@ int PrintVisitor::visit(StructInitializerExp* exp) {
     cout << "}";
     return 0;
 }
+
 int PrintVisitor::visit(AssignExp* exp) {
     exp->left->accept(this);
     cout << " " << Exp::binopToChar(exp->assign_op) << " ";
@@ -628,43 +629,3 @@ void PrintVisitor::imprimir(Program* program) {
         program->main_function->accept(this);
     }
 }
-
-
-//TypeChecker
-/*
-enum TypeEnum {
-    INT_TYPE,
-    BOOL_TYPE,
-    CHAR_TYPE,
-    STRING_TYPE,
-    VOID_TYPE,
-    STRUCT_TYPE,
-    ARRAY_TYPE,
-    POINTER_TYPE,
-    UNDEFINED_TYPE
-};
-
-class TypeInfo {
-public:
-    TypeEnum type;
-    string struct_name;
-    TypeInfo* base_type;
-
-    TypeInfo(TypeEnum t) : type(t), base_type(nullptr) {}
-    TypeInfo(TypeEnum t, string name) : type(t), struct_name(name), base_type(nullptr) {}
-    TypeInfo(TypeEnum t, TypeInfo* base) : type(t), base_type(base) {}
-};
-
-
-TypeChecker::TypeChecker() {
-    env = new Environment();
-}
-
-TypeChecker::~TypeChecker() {
-    delete env;
-}
-void TypeChecker::visit(PrintfStatement *stm) {
-
-}
-*/
-// GenCodeVisitor completo con Environment integrado

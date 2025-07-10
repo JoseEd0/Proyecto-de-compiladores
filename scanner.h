@@ -6,6 +6,7 @@
 
 class Scanner {
 private:
+
     std::string input;
     int first, current;
 public:

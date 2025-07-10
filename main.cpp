@@ -5,8 +5,9 @@
 #include "parser.h"
 #include "visitor.h"
 using namespace std;
+
 int main(int argc, const char *argv[]){
-    cout << "Inicio del main" << endl;
+    cout << "Inicio" << endl;
     if (argc != 2)
     {
         cout << "Numero incorrecto de argumentos. Uso: " << argv[0] << " <archivo_de_entrada>" << endl;

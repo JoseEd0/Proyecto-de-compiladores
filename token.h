@@ -13,22 +13,18 @@ public:
         CHARACTER_CONSTANT,
         STRING_LITERAL,
         FORMAT_STRING,
-
-        INT,
-        CHAR,
-        VOID,
-        STRUCT,
-
         IF,
         ELSE,
         ELSE_IF,
         WHILE,
         FOR,
         RETURN,
-
+        INT,
+        CHAR,
+        VOID,
+        STRUCT,
         INCLUDE,
         HEADER_NAME,
-
         PLUS,
         MINUS,
         MULTIPLY,
@@ -36,33 +32,30 @@ public:
         MODULO,
         INCREMENT,
         DECREMENT,
-
         ASSIGN,
         PLUS_ASSIGN,
         MINUS_ASSIGN,
         MULTIPLY_ASSIGN,
         DIVIDE_ASSIGN,
         MODULO_ASSIGN,
-
         EQUAL,
         NOT_EQUAL,
         LESS_THAN,
         GREATER_THAN,
         LESS_EQUAL,
         GREATER_EQUAL,
-
         LOGICAL_AND,
         LOGICAL_OR,
         LOGICAL_NOT,
-
         DEREFERENCE,
         POINTER_DECL,
         ADDRESS_OF,
         ARROW,
-
         LEFT_PAREN,
         RIGHT_PAREN,
         LEFT_BRACE,
+        LINE_COMMENT,
+        BLOCK_COMMENT,
         RIGHT_BRACE,
         LEFT_BRACKET,
         RIGHT_BRACKET,
@@ -70,10 +63,6 @@ public:
         COMMA,
         COLON,
         DOT,
-
-        LINE_COMMENT,
-        BLOCK_COMMENT,
-
         MAIN,
         PRINTF,
         TRUE,

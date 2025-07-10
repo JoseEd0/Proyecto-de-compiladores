@@ -22,20 +22,6 @@ Token* Scanner::nextToken() {
     char c = input[current];
     first = current;
 
-    if (c == '#') {
-        current++;
-        while (current < input.length() && isalpha(input[current]))
-            current++;
-        string directive = input.substr(first, current - first);
-        if (directive == "#include") {
-            token = new Token(Token::INCLUDE, directive);
-            return token;
-        } else {
-            token = new Token(Token::ERROR, directive);
-            return token;
-        }
-    }
-
     if (c == '/' && current + 1 < input.length()) {
         if (input[current + 1] == '/') {
             current += 2;
@@ -67,6 +53,20 @@ Token* Scanner::nextToken() {
             } else {
                 token = new Token(Token::ERROR, "Unclosed block comment");
             }
+            return token;
+        }
+    }
+
+    if (c == '#') {
+        current++;
+        while (current < input.length() && isalpha(input[current]))
+            current++;
+        string directive = input.substr(first, current - first);
+        if (directive == "#include") {
+            token = new Token(Token::INCLUDE, directive);
+            return token;
+        } else {
+            token = new Token(Token::ERROR, directive);
             return token;
         }
     }
