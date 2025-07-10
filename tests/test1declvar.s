@@ -13,7 +13,7 @@ main:
 printf_fmt_0: .string "Entero: %d, Caracter: %c\n"
 .text
     leaq printf_fmt_0(%rip), %rdi
-# Cargando valor de a
+# Cargando valor de a 0 -1
  movq -8(%rbp), %rax # a
     movq %rax, %rsi
  movq $97, %rax

@@ -210,7 +210,6 @@ def main():
     <div class="header">
         <h1>⚙️ Compilador C</h1>
         <p>Compilador con soporte para structs, punteros y generación de código x86-64</p>
-        <p><em>Hecho por Zamir Lizardo y Matias Meneses para el curso de Compiladores de la UTEC</em></p>
     </div>
     """,
         unsafe_allow_html=True,
